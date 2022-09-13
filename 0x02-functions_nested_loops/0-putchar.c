@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main -prints the string _putchar 
- *
+ * main -print '_putchar' and then begin a new line
  * Return: 0 (Success)
  */
 int main(void)
