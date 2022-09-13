@@ -3,9 +3,9 @@
 /**
  * _isalpha -checks if character c is alphabet
  *
- * @c -the parameter c to be checked
+ * @c: The character to be checked 
  *
- * return value for _isalpha: 1 if c is a letter otherwise return 0
+ * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise
  */
 int _isalpha(int c)
 {
