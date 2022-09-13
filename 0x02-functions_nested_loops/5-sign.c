@@ -5,9 +5,9 @@
  *
  * @n -number n that is to be checked
  *
- * return: 1 if n is greater than zero
- * 	   0 if n is zero
- * 	   -1 if n less than zero
+ * return value for print_sign: 1 if n is greater than zero
+ * 				 0 if n is zero
+ * 				 -1 if n less than zero
  */
 int print_sign(int n)
 {
