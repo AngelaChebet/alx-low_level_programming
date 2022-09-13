@@ -3,7 +3,7 @@
 /**
  * _isalpha -checks if character c is alphabet
  *
- * @c: The character to be checked 
+ * @c: The character to be checked
  *
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise
  */
