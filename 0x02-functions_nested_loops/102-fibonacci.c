@@ -8,22 +8,24 @@
 int main(void)
 {
 	int first_no = 0;
-	int second_no = 1;
-	int next_no;
+	unsigned long second_no = 1;
+	unsigned long next_no;
 	int i;
 
 	for (i = 0; i <= 50; i++)
 	{
 		next_no = first_no + second_no;
 
-		printf("%d, ", next_no);
+		printf("%lu", next_no);
 
 		first_no = second_no;
 		second_no = next_no;
 
 		if (i == 49)
-			break;
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("\n");
+	
 	return (0);
 }
